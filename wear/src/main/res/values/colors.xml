@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="circle_selected">#3F51B5</color>
+    <color name="circle_unselected">#CCCCCC</color>
+    <color name="background">#3F51B5</color>
+    <color name="inset_background">#88E8EAF6</color>
+</resources>

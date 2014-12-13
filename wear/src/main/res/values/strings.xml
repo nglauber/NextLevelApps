@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NextLevelApps</string>
+    <string name="watchface_label">My WatchFace</string>
+
+</resources>
