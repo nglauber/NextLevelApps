@@ -1,5 +1,6 @@
 package br.com.nglauber.nextlevelapps;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.View;
@@ -15,6 +16,7 @@ public class MainMobileActivity extends ActionBarActivity {
     private static final int NOTIFICATION_STACKED = 2;
     private static final int NOTIFICATION_PAGES = 3;
     private static final int NOTIFICATION_VOICE_REPLY = 4;
+    private static final int SYNC = 5;
     ListView mListView;
 
     @Override
@@ -51,6 +53,9 @@ public class MainMobileActivity extends ActionBarActivity {
                 break;
             case NOTIFICATION_VOICE_REPLY:
                 NotificationUtils.notificationWithVoiceReply(this);
+                break;
+            case SYNC:
+                startActivity(new Intent(this, SyncActivity.class));
                 break;
         }
     }

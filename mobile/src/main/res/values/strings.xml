@@ -9,6 +9,7 @@
         <item>@string/notification_stacked_title</item>
         <item>@string/notification_pages_title</item>
         <item>@string/notification_reply_title</item>
+        <item>Dados e sincronização</item>
     </string-array>
 
     <string name="notification_simple_title">Notificação simples</string>
@@ -23,9 +24,13 @@
     <string name="notification_text_with_count"><b>Notificação %1$d</b> Texto da mensagem</string>
     <string name="notification_count">%1$d novas mensagens.</string>
     <string name="notification_reply_title">Notificação com resposta</string>
-    <string name="notification_reply_text">Deslize para esquerda para responder...</string>
+    <string name="notification_reply_text">Deslize para esquerda para responder</string>
     <string name="reply_label">Responder</string>
     <string name="reply_question">Qual a sua resposta?</string>
+    <string name="send">Enviar</string>
+    <string name="data_sent">Dados salvos com sucesso</string>
+    <string name="connected">Conectado</string>
+    <string name="fail_to_connect">Falha a conectar</string>
 
     <string-array name="reply_choices">
         <item>Sim</item>
@@ -33,6 +38,7 @@
         <item>Talvez</item>
     </string-array>
 
-    <string name="title_activity_reply">Resposta do wear...</string>
+    <string name="title_activity_reply">Resposta do wear</string>
+    <string name="title_activity_sync">SyncActivity</string>
 
 </resources>

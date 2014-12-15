@@ -13,7 +13,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_box="left|right|bottom"
+        app:layout_box="left|right"
         android:background="@color/inset_background">
 
         <android.support.wearable.view.WearableListView
