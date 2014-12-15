@@ -141,16 +141,8 @@ public class SyncActivity extends ActionBarActivity
                     putDataMapRequest.getDataMap().putAsset("image", asset);
 
                     PutDataRequest putDataRequest = putDataMapRequest.asPutDataRequest();
-                    Log.d(TAG, "1Connected?"+ mGoogleApiClient.isConnected() +" data-->"+ putDataRequest.toString(true));
                     Wearable.DataApi.putDataItem(mGoogleApiClient, putDataRequest);
                     return putDataRequest;
-                }
-
-                @Override
-                protected void onPostExecute(PutDataRequest putDataRequest) {
-                    super.onPostExecute(putDataRequest);
-                    Log.d(TAG, "2Connected?"+ mGoogleApiClient.isConnected() +" data-->"+ putDataRequest.toString(true));
-                    Wearable.DataApi.putDataItem(mGoogleApiClient, putDataRequest);
                 }
             }.execute();
         }
